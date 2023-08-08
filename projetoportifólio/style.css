@@ -40,7 +40,9 @@ h1{
     display: flex; 
     justify-content: center;
 }
-
+.up{
+    margin-top: 2%;
+}
 .borda{
     border: solid black;
 }
