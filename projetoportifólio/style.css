@@ -1,0 +1,50 @@
+p{
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+article{
+    border: solid black;
+    margin: -1% 15% 2% 15%;
+    padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vw;
+}
+img{
+    width: 18.4%;
+    height: 10%;
+    margin-top: 1%;
+    margin-bottom: -1%;
+    margin-left: 15.3%;
+    padding: 0.5%;
+    border: solid black;
+    border-radius: 20px;
+}
+h1{
+    border: solid black;
+    border-radius: 20px;
+    margin-top: 1%;
+    margin-right: 3.5%;
+    margin-left: 7.3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 7.4%;
+    padding-bottom: 7.4%;
+    font-size: 3.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.section-aprensentacao{
+    width: 89.5%;
+    display: flex; 
+    justify-content: center;
+}
+
+.borda{
+    border: solid black;
+}
+
+.centralizacao{
+    justify-content: center;
+}
