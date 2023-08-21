@@ -6,7 +6,17 @@ article {
     font-size: 1.4vw;
 }
 
+a {
+    color: #b33a3a;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
 
+
+a:hover {
+    color: #FF5733;
+    text-decoration: underline;
+}
 
 body {
     background: radial-gradient(circle, #ff0000, #660000);
@@ -18,11 +28,11 @@ body {
 
 code {
     font-family: "Courier New", monospace;
-    background-color: #e4d4d4;
+    background-color: #bba2a2;
     padding: 2px 4px;
     border: 1px solid #ddd;
     border-radius: 3px;
-  }
+}
 
 img {
     width: 14.5%;
@@ -34,15 +44,19 @@ img {
     border-radius: 20px;
 }
 
+.ajuste {
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .borda {
-    border: solid black;
+    border: groove black;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
 }
 
-
-
-.container{
+.container {
     padding: auto;
     margin-top: 1%;
     margin-left: 2%;
@@ -72,7 +86,7 @@ img {
     margin-right: 5%;
 }
 
-.fomatText{
+.fomatText {
     color: #460909;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5vw;
@@ -87,20 +101,14 @@ img {
     justify-content: center;
 }
 
-.secondText{
+.secondText {
     margin-top: 0.5%;
     padding-top: 1.5%;
     padding-left: 2%;
 }
 
-.thirdText{
+.thirdText {
     margin-top: -3%;
     padding-top: 1.5%;
     padding-left: 2%;
-}
-
-.ajuste{
-    margin-top: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
 }
