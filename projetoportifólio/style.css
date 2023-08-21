@@ -51,7 +51,7 @@ img {
 }
 
 .borda {
-    border: groove black;
+    border: solid black;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
 }
@@ -79,7 +79,7 @@ img {
 }
 
 .firstText {
-    border-left: 5px solid #b33a3a;
+    border-left: 0.4em solid #b33a3a;
     padding-left: 1%;
     margin-top: 5%;
     margin-left: 3%;
