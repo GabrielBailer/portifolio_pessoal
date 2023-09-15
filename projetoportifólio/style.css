@@ -85,7 +85,7 @@ img {
     padding: 0.5% 2%;
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 1080px) {
     .sectionAprensentacao {
         display: flex;
         flex-direction:flex;
@@ -113,13 +113,7 @@ img {
         margin-right: 10%;
     }
     .customScrollbar {
-        overflow-y: scroll;
-        scrollbar-width: 1px;
-        scrollbar-color: transparent transparent;
-        max-height: 100vh;
-    }
-    .customScrollbar::-webkit-scrollbar {
-        width: 6px;
+        overflow-y: auto;
     }
     .fomatText {
         font-size: 2vw;
