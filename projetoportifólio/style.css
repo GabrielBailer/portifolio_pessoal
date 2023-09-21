@@ -44,7 +44,7 @@ img {
     margin-right: 10%;
 }
 .customScrollbar {
-    overflow-y: scroll;
+    overflow-y: auto;
     scrollbar-width: 1px;
     scrollbar-color: transparent transparent;
     max-height: 100vh;
