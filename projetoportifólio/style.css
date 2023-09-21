@@ -47,7 +47,6 @@ img {
     overflow-y: auto;
     scrollbar-width: 1px;
     scrollbar-color: transparent transparent;
-    max-height: 100vh;
 }
 .customScrollbar::-webkit-scrollbar {
     width: 6px;
