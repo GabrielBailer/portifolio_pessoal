@@ -3,6 +3,9 @@ a {
     text-decoration: none;
     transition: color 0.3s ease-in-out;
 }
+main{
+    display: block;
+}
 a:hover {
     color: #FF5733;
     text-decoration: underline;
@@ -12,7 +15,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    overflow: hidden;
 }
 code {
     font-family: "Courier New", monospace;
@@ -43,13 +45,15 @@ img {
     margin-left: 2%;
     margin-right: 10%;
 }
-.customScrollbar {
-    overflow-y: auto;
-    scrollbar-width: 1px;
-    scrollbar-color: transparent transparent;
+
+::-webkit-scrollbar {
+    width: 0px;
 }
-.customScrollbar::-webkit-scrollbar {
-    width: 6px;
+::-webkit-scrollbar-thumb{
+    background: transparent;
+}
+::-webkit-scrollbar-track{
+    background: transparent;
 }
 .firstText {
     border-left: 0.3em solid #b33a3a;
