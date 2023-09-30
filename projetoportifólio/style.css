@@ -45,7 +45,6 @@ img {
     margin-left: 2%;
     margin-right: 10%;
 }
-
 ::-webkit-scrollbar {
     width: 0px;
 }
@@ -76,13 +75,11 @@ img {
     display: flex;
     justify-content: center;
 }
-
 .secondText {
     margin-top: 0.5%;
     padding-top: 1.5%;
     padding-left: 2%;
 }
-
 .thirdText {
     line-height: 2.5vw;
     padding: 0.5% 2%;
@@ -114,9 +111,6 @@ img {
         margin-top: 5%;
         margin-left: 1%;
         margin-right: 10%;
-    }
-    .customScrollbar {
-        overflow-y: auto;
     }
     .fomatText {
         font-size: 2vw;
@@ -169,9 +163,6 @@ img {
     .container{
         padding: 2% 5%;
         margin: 2.5% 10%;
-    }
-    .customScrollbar::-webkit-scrollbar {
-        width: 6px;
     }
     .fomatText {
         font-size: 3vw;
